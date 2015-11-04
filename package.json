@@ -1,0 +1,27 @@
+{
+  "name": "bower-auto-link",
+  "version": "0.1.0",
+  "description": "Automatically links multiple dependent bower modules in the same directory by using bower link.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandanand84/bower-auto-link.git"
+  },
+  "keywords": [
+    "bower",
+    "auto",
+    "link",
+    "multiple",
+    "dependency",
+    "symlink"
+  ],
+  "author": "Anand Aravindan <anand.anand84@gmail.com> (http://traderslab.in)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anandanand84/bower-auto-link/issues"
+  },
+  "homepage": "https://github.com/anandanand84/bower-auto-link#readme"
+}
