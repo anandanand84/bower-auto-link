@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/anandanand84/bower-auto-link.git"
   },
+  "bin": {
+    "bower-auto-link": "bin/bower-auto-link"
+  },
   "keywords": [
     "bower",
     "auto",
@@ -23,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/anandanand84/bower-auto-link/issues"
   },
-  "homepage": "https://github.com/anandanand84/bower-auto-link#readme"
+  "homepage": "https://github.com/anandanand84/bower-auto-link#readme",
+  "dependencies": {
+    "walk": "^2.3.9"
+  }
 }
