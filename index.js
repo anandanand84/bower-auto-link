@@ -34,7 +34,7 @@ availableProjectsWalker.on("directories", function (root, dirStatsArray, next) {
     });
 
     if(linkedProjectCount < 0){
-        console.err("No Bower modules found in the directory");
+        console.err("No Bower modules found in the directory. Execute command in the folder containing the bower modules");
     }else{
         console.log(linkedProjectCount +" projects available to link");
     }

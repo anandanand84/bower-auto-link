@@ -8,6 +8,10 @@ Automatically links multiple dependent bower modules in the same directory by us
 
 ## Usage
 
+   ```shell
+   npm install bower-auto-link@latest -g
+   bower-auto-link
+   ```
 
 ## Release History
 
