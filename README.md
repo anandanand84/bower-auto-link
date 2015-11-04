@@ -4,15 +4,18 @@ Automatically links multiple dependent bower modules in the same directory by us
 
 ## Installation
 
-  npm install bower-auto-link -g
-
+   ```shell
+   npm install bower-auto-link -g
+   ```
 ## Usage
 
+
+   Run the following command on the parent directory containing the modules.
+
    ```shell
-   npm install bower-auto-link@latest -g
    bower-auto-link
    ```
 
 ## Release History
 
-* 0.1.0 Initial release
+* 0.1.2 Initial release
