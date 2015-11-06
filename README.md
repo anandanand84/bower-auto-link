@@ -17,6 +17,3 @@ Automatically links multiple dependent bower modules in the same directory by us
    
 ![screencast](screencast.gif)
 
-## Release History
-
-* 0.1.2 Initial release
