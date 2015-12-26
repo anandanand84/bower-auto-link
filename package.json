@@ -1,6 +1,6 @@
 {
   "name": "bower-auto-link",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "Automatically links multiple dependent bower modules in the same directory by using bower link.",
   "main": "index.js",
   "scripts": {
