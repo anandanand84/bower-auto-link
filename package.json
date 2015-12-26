@@ -11,7 +11,8 @@
     "url": "git+https://github.com/anandanand84/bower-auto-link.git"
   },
   "bin": {
-    "bower-auto-link": "bin/bower-auto-link"
+    "bower-auto-link": "bin/bower-auto-link",
+    "npm-auto-link": "bin/npm-auto-link"
   },
   "keywords": [
     "bower",
@@ -19,7 +20,8 @@
     "link",
     "multiple",
     "dependency",
-    "symlink"
+    "symlink",
+    "npm"
   ],
   "author": "Anand Aravindan <anand.anand84@gmail.com> (http://traderslab.in)",
   "license": "MIT",
