@@ -77,12 +77,16 @@ module.exports = function(npm){
             "use strict";
             var currentProjectPath = path.join(root, availableProject);
             var dependents = require(path.join(currentProjectPath, fileType)).dependencies;
-            Object.keys(dependents).forEach(function(dependency){
-                if(availableProjectsForLink.indexOf(dependency)!=-1){
-                    var output = execSync(ADD_LINK_COMMAND+dependency,{'cwd':currentProjectPath});
-                    process.stdout.write(output);
-                }
-            });
+            if(dependents){
+                Object.keys(dependents).forEach(function(dependency){
+                    if(availableProjectsForLink.indexOf(dependency)!=-1){
+                        var output = execSync(ADD_LINK_COMMAND+dependency,{'cwd':currentProjectPath});
+                        process.stdout.write(output);
+                    }
+                });
+            } else {
+                console.log("No dependencies found in bower.json package, skipping: ", path.join(currentProjectPath, fileType));
+            }
         });
     });
 
